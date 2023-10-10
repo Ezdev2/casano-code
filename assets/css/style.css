@@ -1562,6 +1562,11 @@ Blog and Blog Detailss End
     right: 0;
   }
 }
+@media (min-width: 768px) {
+  .aai-hero-one-title {
+    height: 350px;
+  }
+}
 @media (max-width: 1199px) {
   .aai-hero-one-img .aai-hero-img {
     position: relative;
