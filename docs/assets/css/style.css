@@ -941,18 +941,19 @@ h6 {
   color: var(--interface-2);
 }
 .aai-newsletter-btn {
-  position: absolute;
+  /* position: absolute; */
   right: 0;
-  padding: 16px 32px;
+  padding: 28px 32px;
   border-radius: 30px;
   background-color: var(--white);
+  transition: all 0.4s ease-in;
   font-size: var(--text-lg);
   color: var(--interface-1);
   display: inline-flex;
   justify-content: center;
   align-items: center;
   border: none;
-  top: 8px;
+  top: 4px;
   bottom: 8px;
   right: 8px;
   z-index: 10;
@@ -1560,6 +1561,11 @@ Blog and Blog Detailss End
 @media (min-width: 1600px) {
   .aai-hero-one-img .aai-hero-img {
     right: 0;
+  }
+}
+@media (min-width: 768px) {
+  .aai-hero-one-title {
+    height: 350px;
   }
 }
 @media (max-width: 1199px) {
