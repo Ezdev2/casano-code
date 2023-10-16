@@ -110,6 +110,7 @@ h6 {
   background-color: var(--white);
   color: var(--interface-1);
   transition: all 0.4s ease-in;
+  text-align: center;
   position: relative;
   overflow: hidden;
   z-index: 10;
@@ -117,6 +118,7 @@ h6 {
 .btn-pill-solid-two {
   background-color: var(--interface-4);
   color: var(--interface-1);
+  text-align: center;
   transition: all 0.35s;
   z-index: 10;
   position: relative;
@@ -124,6 +126,7 @@ h6 {
 }
 .btn-pill-solid::after {
   content: "";
+  text-align: center;
   position: absolute;
   top: 0;
   left: 0;
@@ -165,6 +168,7 @@ h6 {
   color: var(--white);
   position: relative;
   display: inline-block;
+  text-align: center;
   border-radius: 30px;
   font-size: 18px;
   transition: all 0.3s;
