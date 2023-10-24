@@ -558,7 +558,7 @@ h6 {
 }
 .aai-hero-one-img .aai-hero-img {
   position: absolute;
-  right: -180px;
+  right: -360px;
   top: 205px;
 }
 
@@ -1562,15 +1562,24 @@ Blog and Blog Detailss End
 ***************************/
 
 /* Responsive CSS */
-@media (min-width: 1600px) {
-  .aai-hero-one-img .aai-hero-img {
+@media (min-width: 1470px) {
+  /* .aai-hero-one-img .aai-hero-img {
     right: 0;
+  } */
+  .aai-hero-one-img .aai-hero-img {
+    /* position: absolute; */
+    right: -100px;
+    /* top: 205px; */
   }
 }
 @media (min-width: 768px) {
   .aai-hero-one-title {
     height: 350px;
+    /* width: 60% */
   }
+  /* .aai-hero-one-content {
+    width: 60%
+  } */
 }
 @media (max-width: 1199px) {
   .aai-hero-one-img .aai-hero-img {
