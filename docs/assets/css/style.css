@@ -364,6 +364,16 @@ h6 {
 
 /*----- For Mobile ----*/
 @media screen and (max-width: 1199px) {
+  .aai-hero-one-desc {
+    text-align: center;
+    font-size: 12px;
+  }
+  .aai-hero-one-title {
+    text-align: center;
+  }
+  .aai-btns-group {
+    justify-content: center;
+  }
   .header-primary {
     position: absolute;
     top: 0;
@@ -1125,7 +1135,8 @@ Contact Page Start
 .aai-contact-widget {
   border-radius: 12px;
   position: relative;
-  width: 465px;
+  width: 100%;
+  /* width: 465px; */
 }
 .aai-contact-widget::before {
   content: "";
@@ -1589,6 +1600,9 @@ Blog and Blog Detailss End
   }
 }
 @media (max-width: 768px) {
+  .aai-hero-img {
+    display: none;
+  }
   .writing-step {
     border: none;
     border-bottom: 1px solid rgba(255, 255, 255, 0.12);
