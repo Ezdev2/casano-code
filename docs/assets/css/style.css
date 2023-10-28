@@ -1583,6 +1583,16 @@ Blog and Blog Detailss End
     /* top: 205px; */
   }
 }
+@media (min-width: 1200px) {
+  .aai-hero-one {
+    background: url("../img/hero/hero-bg-1.jpeg") no-repeat center center/cover;
+  }
+}
+@media (max-width: 1199px) {
+  .aai-hero-one {
+    background: url("../img/hero/hero-bg-2.jpeg") no-repeat center center/cover;
+  }
+}
 @media (min-width: 768px) {
   .aai-hero-one-title {
     height: 350px;
